@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="icon" href="assets/images/logo.svg">
+    <link rel="stylesheet" href="assets/font/font.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/responsive-layout.css">
+	
+</head>
+<body>
+
+    <aside class="sidebar">
+
+        <div class="card h-100 border-0 shadow mb-3">
+
+            <div class="card-body">
+
+                <ul class="sidebar-items">
+
+                    <li class="sidebar-item">
+                        
+                        <a data-bs-toggle="collapse" href="#li1" >
+                            Users
+                        </a>
+
+                        <div class="sidebar-item-sub collapse" id="li1">
+                            <div class="card card-body">
+                             Info About Li1
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="sidebar-item">
+                        
+                        <a data-bs-toggle="collapse" href="#li2">
+                            Posts
+                        </a>
+
+                        <div class="sidebar-item-sub collapse" id="li2">
+                            <div class="card card-body">
+                             Info About Li2
+                            </div>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="sidebar-tab-content tab-content" id="myTabContent">
+    
+        
+        </div>
+
+    </aside>
+    
+    <button id="changeBtn" class="btn btn-primary d-block mx-auto my-5"> Change Tabs/Collapse </button>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="Js/main.js"></script>    
+
+</body>
+</html>
